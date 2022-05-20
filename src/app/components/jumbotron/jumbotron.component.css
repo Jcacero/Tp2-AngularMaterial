@@ -1,0 +1,9 @@
+.jumbotron{
+    margin-top: 22px;
+    background-color: #8c8c8c;
+    color: white;
+}
+.tituloJumbotron{
+    font-size:50px;
+    font-family: 'Orbitron', sans-serif;
+}

@@ -1,0 +1,27 @@
+.button-container{
+    display:inline-block;
+    position: relative;
+    left: 110px;
+}
+
+.botonSobreImagen{
+    font-family: 'Orbitron', sans-serif;
+    font-size: medium;
+    position: absolute;
+    top:10em;
+    left:4em;
+    background-color: white;
+    color: black;
+}
+.botonSobreImagen:hover{
+    background-color: black;
+    color: white;
+}
+
+.zoomBaner{
+    margin-top: 50px;
+    transition: transform .2s; 
+}
+.zoomBaner:hover{
+    transform: scale(1.1);
+}
