@@ -4,6 +4,8 @@ import { MaterialModule } from '../material/material.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BannerComponent } from './banner/banner.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { CatergoriasComponent } from './catergorias/catergorias.component';
+import { CardsComponent } from './cards/cards.component';
 
 
 
@@ -12,11 +14,15 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
     NavbarComponent,
     BannerComponent,
     JumbotronComponent,
+    CatergoriasComponent,
+    CardsComponent,
   ],
   exports:[
     NavbarComponent,
     BannerComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    CatergoriasComponent,
+    CardsComponent
   ],
   imports: [
     CommonModule,

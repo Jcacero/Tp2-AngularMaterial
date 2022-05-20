@@ -1,9 +1,21 @@
 .jumbotron{
+    position: relative;
     margin-top: 22px;
-    background-color: #8c8c8c;
+    background-color: #4545469c;
     color: white;
 }
 .tituloJumbotron{
     font-size:50px;
     font-family: 'Orbitron', sans-serif;
+}
+
+.botonJumbotron{
+    bottom: 1em;
+    left:46%;
+    border-color: white;
+    font-size: larger;
+}
+.botonJumbotron:hover{
+    color: white;
+    background-color: black;
 }
