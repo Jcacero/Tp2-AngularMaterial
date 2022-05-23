@@ -7,10 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule } from './material/material.module';
 import { ComponentsModule } from './components/components.module';
+import { BuzosComponent } from './page/buzos/buzos.component';
+import { HomeComponent } from './page/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    BuzosComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

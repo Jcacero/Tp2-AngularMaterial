@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from '../material/material.module';
+import { AppRoutingModule } from '../app-routing.module';
+
+//importacion de componentes
 import { NavbarComponent } from './navbar/navbar.component';
 import { BannerComponent } from './banner/banner.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
@@ -26,7 +29,8 @@ import { CardsComponent } from './cards/cards.component';
   ],
   imports: [
     CommonModule,
-    MaterialModule
+    MaterialModule,
+    AppRoutingModule
   ]
 })
 export class ComponentsModule { }

@@ -2,10 +2,11 @@
     <mat-toolbar color="basic">
         <button mat-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
         <mat-menu #menu="matMenu">
-          <button mat-menu-item>Busos</button>
-          <button mat-menu-item>Remeras</button>
-          <button mat-menu-item>Pantalones</button>
-          <button mat-menu-item>Contacto</button>
+          <a mat-menu-item routerLink="home" >Home</a>
+          <a mat-menu-item routerLink="buzos">Busos</a>
+          <button mat-menu-item routerLink="remeras">Remeras</button>
+          <button mat-menu-item routerLink="pantalones">Pantalones</button>
+          <button mat-menu-item routerLink="contacto">Contacto</button>
         </mat-menu>
       <span><img src="../../../assets/Imagenes/LogoOCN2.png" alt="ImagenDeLogo" style="height: 50px;width: 50px;border-radius: 50%;"></span>
       <span class="example-spacer"></span>
