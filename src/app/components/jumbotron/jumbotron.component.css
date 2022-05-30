@@ -4,6 +4,9 @@
     background-color: #4545469c;
     color: white;
 }
+.contenidoJumbo{
+    padding: 30px;
+}
 .tituloJumbotron{
     font-size:50px;
     font-family: 'Orbitron', sans-serif;
@@ -12,6 +15,7 @@
 .botonJumbotron{
     bottom: 1em;
     left:46%;
+    margin-top: 30px;
     border-color: white;
     font-size: larger;
 }

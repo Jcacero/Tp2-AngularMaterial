@@ -14,12 +14,12 @@ export class CardsComponent implements OnInit {
     this.info=[
       {
         titulo: 'Buzos',
-        imagen: 'https://scontent.faep9-3.fna.fbcdn.net/v/t39.30808-6/277590476_1185591032252502_9130951049090838496_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeEHsiJpBCD0WNk3BC2nDeBkOL0mwxpJ8s04vSbDGknyzd2lVy4YcsGn12AHft9ZRmHuAu5ASDyVUwwPYf2CMri_&_nc_ohc=xviO16612P4AX88SVTD&_nc_ht=scontent.faep9-3.fna&oh=00_AT93ZJSquhxEe5RtMcHTEEVoEJvpHOTt4yfXhMhzsafuGQ&oe=628D1AA1',
+        imagen: 'https://scontent.faep9-1.fna.fbcdn.net/v/t39.30808-6/278950551_1193749894769949_1413110495423669914_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a26aad&_nc_ohc=kEUUMFL5wQkAX8hPRuy&_nc_ht=scontent.faep9-1.fna&oh=00_AT-j2_Miw2d-pzwVk33EFYxCY0JzehjQEKA6UIeelWLv8A&oe=6298CAA9',
         direc: '/buzos'
       },
       {
         titulo: 'Remeras',
-        imagen: 'https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/242756127_1059376114873995_6405233118640401826_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeGnR9lVSIQCgSn4dK46mJFq-AkFf8xhAeX4CQV_zGEB5Xx42NeeQMCn4M0S-0-Wwx5IMfpiYYbIkQtYHzPFkDsD&_nc_ohc=0Imd__USFj8AX_AunFm&_nc_ht=scontent.faep9-2.fna&oh=00_AT9HwZQjj76z57mDK_w035JOMm9GKC4PxG6cdHxtFcrIkA&oe=628CFFAB',
+        imagen: 'https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/242192348_1057916521686621_4794815972933518487_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=ICU_cKanDqkAX9AhUqf&_nc_ht=scontent.faep9-2.fna&oh=00_AT8hTNLdWAEwutKaVF4Uf57i451Dec2vIePtBZ0pS4GC7A&oe=62992812',
         direc: '/remeras'
 
       },
