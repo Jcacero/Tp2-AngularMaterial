@@ -13,6 +13,7 @@ import { CamperasComponent } from "./page/categorias/camperas/camperas.component
 import { HomeComponent } from './page/home/home.component';
 import { NosotrosComponent } from './page/nosotros/nosotros.component';
 import { ContactanosComponent } from './page/contactanos/contactanos.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ContactanosComponent } from './page/contactanos/contactanos.component';
     HomeComponent,
     NosotrosComponent,
     ContactanosComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

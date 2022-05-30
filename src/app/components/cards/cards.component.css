@@ -53,6 +53,7 @@
   .title-black {
     color: black;
   }
+
   
   @media all and (max-width: 500px) {
     .card-list {
