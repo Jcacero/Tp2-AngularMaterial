@@ -9,18 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  public mostrar: boolean = false;
-
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  mostrarCategorias(){
-    this.mostrar=true;
-  }
-  noMostrarCategorias(){
-    this.mostrar=false;
-  }
   
 }

@@ -1,29 +1,26 @@
-<p>
-    <mat-toolbar color="basic">
-        <button mat-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
-        <mat-menu #menu="matMenu">
-          <a mat-menu-item routerLink="home" >Home</a>
-          
-          <a mat-menu-item class="botonCategoria" (mouseover)="mostrarCategorias()">Categorias</a> 
-          <div (mouseout)="noMostrarCategorias()">
-          <a mat-menu-item *ngIf="mostrar"style="margin-left: 20px;">Busos</a>
-          <a mat-menu-item *ngIf="mostrar"style="margin-left: 20px;">Remeras</a>
-          <a mat-menu-item *ngIf="mostrar"style="margin-left: 20px;">Camperas</a>
-          </div>
 
-          <a mat-menu-item routerLink="nosotros">Nosotros</a>
-          <a mat-menu-item routerLink="contactanos">Contactanos</a>
-        </mat-menu>
+<mat-toolbar color="basic">
+    <button mat-button [matMenuTriggerFor]="menu"><span class="material-icons">menu</span></button>
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item  routerLink="/">Home</a>
+    <button mat-menu-item [matMenuTriggerFor]="ropas">Ropas</button>
+    <a mat-menu-item routerLink="nosotros">Nosotros</a>
+    <a mat-menu-item routerLink="contactanos">Contactanos</a>
+  </mat-menu>
 
-      <span><a routerLink="home"><img src="../../../assets/Imagenes/LogoOCN2.png" alt="ImagenDeLogo" style="height: 50px;width: 50px;border-radius: 50%;"></a></span>
+  <mat-menu #ropas="matMenu">
+    <button mat-menu-item>Busos</button>
+    <button mat-menu-item>Remeras</button>
+    <button mat-menu-item>Camperas</button>
+  </mat-menu>
 
+  <span><a routerLink="home"><img src="../../../assets/Imagenes/LogoOCN2.png" alt="ImagenDeLogo" style="height: 50px;width: 50px;border-radius: 50%;"></a></span>
 
-      <span class="example-spacer"></span>
-      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-        <mat-icon>favorite</mat-icon>
-      </button>
-      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-        <mat-icon>share</mat-icon>
-      </button>
-    </mat-toolbar>
-  </p>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
