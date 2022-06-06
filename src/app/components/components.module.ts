@@ -9,6 +9,7 @@ import { BannerComponent } from './banner/banner.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { CatergoriasComponent } from './catergorias/catergorias.component';
 import { CardsComponent } from './cards/cards.component';
+import { FormEmailComponent } from './form-email/form-email.component';
 
 
 
@@ -19,13 +20,15 @@ import { CardsComponent } from './cards/cards.component';
     JumbotronComponent,
     CatergoriasComponent,
     CardsComponent,
+    FormEmailComponent,
   ],
   exports:[
     NavbarComponent,
     BannerComponent,
     JumbotronComponent,
     CatergoriasComponent,
-    CardsComponent
+    CardsComponent,
+    FormEmailComponent
   ],
   imports: [
     CommonModule,
