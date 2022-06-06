@@ -28,7 +28,7 @@ import { FormEmailComponent } from './form-email/form-email.component';
     JumbotronComponent,
     CatergoriasComponent,
     CardsComponent,
-    FormEmailComponent
+    FormEmailComponent,
   ],
   imports: [
     CommonModule,

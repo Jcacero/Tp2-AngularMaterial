@@ -1,17 +1,23 @@
 .titulo_contacto{
     color: white;
-    text-align: center;
     margin-top: 20px;
+    position: relative;
+    text-align: center;
     font-size: 2em;
     font-family: 'Orbitron', sans-serif;
 }
 .email_icon{
     color: white;
     position: relative;
-    left: 47.5%;
+    left: 45%;
     font-size: 60px;
 }
 
-.body{
-    background-image:url("https://www.eluniverso.com/resizer/ki6a44IK5AI3wUu6k5OXy5krtKI=/1005x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/445YBQNHQ7WDULY2XKUGFU6DUY.jpg");
+.mapaGoogle{
+    width: 512px;
+    height: 394.38px;
+    position:relative;
+    top: 130px;
+    bottom: 130px;
+    left: 5%;
 }

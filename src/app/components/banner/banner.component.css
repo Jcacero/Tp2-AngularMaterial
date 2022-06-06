@@ -1,7 +1,17 @@
 .banner-container{
     display:inline-block;
-    position: relative;
-    left: 110px;
+}
+
+.imagenBanner{
+    width: 930px;
+    height: 349px;
+}
+
+@media (max-width:760px){
+    .imagenBanner{
+        width: 930px;
+        height: 349px;
+    }
 }
 
 .zoomBaner{
@@ -11,3 +21,4 @@
 .zoomBaner:hover{
     transform: scale(1.1);
 }
+

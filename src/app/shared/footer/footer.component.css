@@ -1,9 +1,8 @@
 /*footer1*/
 footer{
-  position: absolute;
   background: #626262;
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 40px;
   color: black;
 }
@@ -20,6 +19,7 @@ footer{
   font-weight: 500;
   text-transform: capitalize;
   line-height: 3rem;
+  color: white;
 }
 
 .footer-content p{

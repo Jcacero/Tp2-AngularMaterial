@@ -4,11 +4,12 @@
     width: 100%;
     background-color: white;
     border-style: solid;
-    border-width: 2px;
-    border-color: grey; 
+    border-width: 5px;
+    border-color: rgb(156, 156, 156); 
     position: relative;
-    left: 26%;
-    margin: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 40px;
     padding: 10px;
 }
   
