@@ -1,24 +1,52 @@
 .banner-container{
-    display:inline-block;
+    display: flex;
+    justify-content:center ;
 }
 
 .imagenBanner{
-    width: 930px;
-    height: 349px;
+    width: 576px;
+    height: 216px;
+    
 }
 
-@media (max-width:760px){
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap*/
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 575px) { 
+    .imagenBanner{
+        width: 276px;
+        height: 104px;
+        border-radius: 150px;
+          
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .imagenBanner{
+        width: 760px;
+        height: 285px;
+        
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
     .imagenBanner{
         width: 930px;
         height: 349px;
+        
     }
 }
+
 
 .zoomBaner{
     margin-top: 50px;
     transition: transform .2s; 
+    
 }
 .zoomBaner:hover{
-    transform: scale(1.1);
+    transform: scale(0.9, 0.9);
 }
 
