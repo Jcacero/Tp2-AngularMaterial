@@ -1,18 +1,26 @@
-<form class=" example-form">
+<form class=" example-form" action="https://formsubmit.co/jcruz2013c@gmail.com" method="post">
 
   <mat-form-field class="example-full-width" appearance="fill">
-    <mat-label>Nombre</mat-label>
-    <input matInput placeholder="Ej. Juan" >
+    <mat-label for="name" class="letrasForm">Nombre</mat-label>
+    <input name="name" id="name-form" class="letrasForm" matInput placeholder="Ej. Juan" >
   </mat-form-field>
 
   <mat-form-field class="example-full-width" appearance="fill">
-    <mat-label>Email</mat-label>
-    <input matInput placeholder="Ej. juan123@gmail.com" >
+    <mat-label for="email" class="letrasForm">Email</mat-label>
+    <input name="email" id="email-form" class="letrasForm" matInput placeholder="Ej. juan123@gmail.com" >
   </mat-form-field>
 
   <mat-form-field class="example-full-width" appearance="fill">
-    <mat-label>Deja tu comentario</mat-label>
-    <textarea matInput placeholder="Escribe tu comentario"></textarea>
+    <mat-label for="asunto" class="letrasForm">Asunto</mat-label>
+    <input name="asunto" id="asunto-form" class="letrasForm" matInput placeholder="Ej. Consulta de Precios" >
   </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label for="comentario" class="letrasForm">Deja tu comentario</mat-label>
+    <textarea name="comentario" id="comentario-form" class="letrasForm" matInput placeholder="Escribe tu comentario"></textarea>
+  </mat-form-field>
+  <div class="contenedorBoton">
+    <button mat-stroked-button class="botonForm">Enviar</button>
+  </div>
 
 </form>
