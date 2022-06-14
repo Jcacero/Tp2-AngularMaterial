@@ -10,6 +10,7 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { CatergoriasComponent } from './catergorias/catergorias.component';
 import { CardsComponent } from './cards/cards.component';
 import { FormEmailComponent } from './form-email/form-email.component';
+import { ShareSheetComponent } from './share-sheet/share-sheet.component';
 
 
 
@@ -21,6 +22,7 @@ import { FormEmailComponent } from './form-email/form-email.component';
     CatergoriasComponent,
     CardsComponent,
     FormEmailComponent,
+    ShareSheetComponent
   ],
   exports:[
     NavbarComponent,
@@ -29,6 +31,7 @@ import { FormEmailComponent } from './form-email/form-email.component';
     CatergoriasComponent,
     CardsComponent,
     FormEmailComponent,
+    ShareSheetComponent
   ],
   imports: [
     CommonModule,
