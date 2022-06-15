@@ -1,0 +1,10 @@
+.containerImg{
+    display: flex;
+    justify-content: center;
+}
+.imagenBuzoAzul{
+    margin: 20px;
+    width: 700px;
+    height: 800px;
+ 
+}
