@@ -15,7 +15,7 @@ export class CardsComponent implements OnInit {
       {
         titulo: 'Buzos',
         imagen: 'https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/183482852_971332207011720_2445908391779531847_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeFqjfGAdIHFHlCDmMts2sgzflZgdaRtjtF-VmB1pG2O0at8qwRFO6m62vzYprRKiruXSoTENsz1_iOW8YuirBAZ&_nc_ohc=G6buxbKG8MwAX9kT9W9&tn=IGdqUIN2GtmgkHO3&_nc_ht=scontent.faep9-1.fna&oh=00_AT9A1Q-1nqgLClYMbUQbsnDX3fnFnlrxhqXjR9ayy971BA&oe=62CF4600',
-        direc: '/buzos'
+        direc: '/busos'
       },
       {
         titulo: 'Remeras',
