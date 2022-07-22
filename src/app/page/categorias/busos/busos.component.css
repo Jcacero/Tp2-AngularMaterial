@@ -5,11 +5,10 @@ body{
     justify-content: center;
     min-height: 100vh;
 }
-
 .containerImg{
     width: 350px;
     height: 450px;
-    margin-bottom: 20px;
+    margin: auto;
 }
 
 .main_img{
@@ -25,7 +24,8 @@ body{
     height: 80px;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .thumbnail{
