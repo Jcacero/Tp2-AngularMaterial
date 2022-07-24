@@ -8,12 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class BusosComponent implements OnInit {
 
   public imagenPrincipal:string = "../../../../assets/Imagenes/fotosBusoAzul.jpg";
+
+
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
   selectImg (linkImg:string) {
     this.imagenPrincipal= linkImg;
   }
+
 }

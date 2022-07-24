@@ -1,9 +1,12 @@
-
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+}
+.container{
+    background-image: url(../../../../assets/Imagenes/streatWall2.jpg);
+    width: 100%;
 }
 .containerImg{
     width: 350px;
@@ -49,6 +52,7 @@ body{
 .tituloBusos{
     color: white;
     text-align: start;
+    margin-left: 50px;
     margin-top: 30px;
     font-size:30px;
     font-family: 'Orbitron', sans-serif;
