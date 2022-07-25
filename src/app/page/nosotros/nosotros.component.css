@@ -20,10 +20,10 @@ body {
 }
 
 .container {
-    width: 1000px;
-    position: relative;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+
 }
 
 .container .card {

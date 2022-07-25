@@ -4,9 +4,10 @@ body{
     justify-content: center;
     min-height: 100vh;
 }
-.container{
+.container-buzos{
     background-image: url(../../../../assets/Imagenes/streatWall2.jpg);
     width: 100%;
+    height: 100%;
 }
 .containerImg{
     width: 350px;
@@ -18,7 +19,7 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);
     object-fit: cover;
 
 }
@@ -53,7 +54,7 @@ body{
     color: white;
     text-align: start;
     margin-left: 50px;
-    margin-top: 30px;
+    padding-top: 30px;
     font-size:30px;
     font-family: 'Orbitron', sans-serif;
     border-bottom-style:solid;

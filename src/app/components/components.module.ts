@@ -11,6 +11,7 @@ import { CatergoriasComponent } from './catergorias/catergorias.component';
 import { CardsComponent } from './cards/cards.component';
 import { FormEmailComponent } from './form-email/form-email.component';
 import { ShareSheetComponent } from './share-sheet/share-sheet.component';
+import { VideoInicioComponent } from './video-inicio/video-inicio.component';
 
 
 
@@ -22,7 +23,8 @@ import { ShareSheetComponent } from './share-sheet/share-sheet.component';
     CatergoriasComponent,
     CardsComponent,
     FormEmailComponent,
-    ShareSheetComponent
+    ShareSheetComponent,
+    VideoInicioComponent
   ],
   exports:[
     NavbarComponent,
@@ -31,7 +33,8 @@ import { ShareSheetComponent } from './share-sheet/share-sheet.component';
     CatergoriasComponent,
     CardsComponent,
     FormEmailComponent,
-    ShareSheetComponent
+    ShareSheetComponent,
+    VideoInicioComponent
   ],
   imports: [
     CommonModule,

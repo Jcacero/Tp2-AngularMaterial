@@ -9,8 +9,8 @@ import { BusosComponent } from './page/categorias/busos/busos.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  {path:'home', component:HomeComponent},
+  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
+  {path:'inicio', component:HomeComponent},
   {path:'remeras', component:RemerasComponent},
   {path:'camperas', component:CamperasComponent},
   {path:'busos', component:BusosComponent},
