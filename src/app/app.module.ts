@@ -15,6 +15,9 @@ import { ContactanosComponent } from './page/contactanos/contactanos.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { BusosComponent } from './page/categorias/busos/busos.component';
 
+//servicios
+import { ThumbrailsService } from "./servicios/thumbrails.service";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +36,9 @@ import { BusosComponent } from './page/categorias/busos/busos.component';
     MaterialModule,
     ComponentsModule
   ],
-  providers: [],
+  providers: [
+    ThumbrailsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

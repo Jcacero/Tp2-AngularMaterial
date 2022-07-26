@@ -1,1 +1,12 @@
-<p>remeras works!</p>
+<div class="container">
+        
+    <p style="color: white;">Esta pagina esta en proceso</p>
+
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of equipo">
+            <h3>Nombre: {{item.nombre}}</h3>
+            <h3>Especialidad: {{item.especialidad}}</h3>
+            <h3>Descripcion: {{item.descripcion}}</h3>
+        </li>
+    </ul>
+</div>

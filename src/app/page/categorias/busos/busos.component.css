@@ -3,6 +3,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+
 }
 .container-buzos{
     background-image: url(../../../../assets/Imagenes/streatWall2.jpg);
@@ -28,8 +29,8 @@ body{
     height: 80px;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .thumbnail{

@@ -10,16 +10,13 @@
 
   <mat-menu #ropas="matMenu">
     <button mat-menu-item routerLink="busos">Buzos</button>
-    <button mat-menu-item>Remeras</button>
+    <button mat-menu-item routerLink="remeras">Remeras</button>
     <button mat-menu-item>Camperas</button>
   </mat-menu>
 
   <span><a routerLink="inicio"><img src="../../../assets/Imagenes/LogoOCN2.png" alt="ImagenDeLogo" style="height: 50px;width: 50px;border-radius: 50%;"></a></span>
 
   <span class="example-spacer"></span>
-  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-    <mat-icon [ngStyle]="{'color':colorEstado}">favorite</mat-icon>
-  </button>
   
   <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" (click)="openBottomSheet()">
     <mat-icon>share</mat-icon>

@@ -10,8 +10,6 @@ import { ShareSheetComponent } from '../share-sheet/share-sheet.component';
 })
 export class NavbarComponent implements OnInit {
 
-  public megusta: boolean =false;
-  colorEstado='red';
 
   constructor(private _bottomSheet: MatBottomSheet) { }
   openBottomSheet(): void {
@@ -20,9 +18,6 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  darlike(){
-    this.megusta=true;
-  }
 
   
 }
