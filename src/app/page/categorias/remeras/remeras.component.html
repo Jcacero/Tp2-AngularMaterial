@@ -1,12 +1,16 @@
-<div class="container">
-        
-    <p style="color: white;">Esta pagina esta en proceso</p>
+<div class="container-remera">
 
-    <ul class="list-group">
-        <li class="list-group-item" *ngFor="let item of equipo">
-            <h3>Nombre: {{item.nombre}}</h3>
-            <h3>Especialidad: {{item.especialidad}}</h3>
-            <h3>Descripcion: {{item.descripcion}}</h3>
-        </li>
-    </ul>
+    <h1 class="tituloBusos">Remeras</h1>
+
+        <div class="containerImg">
+            <img class="main_img" src="{{imagenPrincipal}}"alt="ImagenDeBuso">
+        </div>
+
+    <div class="thumbnail_container" *ngFor="let item of thumbtails">
+        <img class="thumbnail" src="{{item.imagenT}}" (click)="selectImg('{{item.imagenT}}')">
+        <p style="color: white;">{{item.imagenT}}</p>
+    </div>
+    
+
+    
 </div>

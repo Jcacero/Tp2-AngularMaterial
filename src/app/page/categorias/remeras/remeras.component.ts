@@ -7,13 +7,32 @@ import { ThumbrailsService } from "../../../servicios/thumbrails.service";
 })
 export class RemerasComponent implements OnInit {
 
-  equipo:any[] = [];
+  public imagenPrincipal:string = "../../../../assets/Imagenes/fotosBusoAzul.jpg";
 
-  constructor(private _servicio:ThumbrailsService) { 
-    this.equipo = _servicio.obtenerEquipo();
+  thumbtails:any[] = [
+    {
+      imagenT:'../../../../assets/Imagenes/fotoRemera.jpg'
+    },
+    {
+      imagenT:'../../../../assets/Imagenes/fotoRemera2.jpg'
+    },
+    {
+      imagenT:'../../../../assets/Imagenes/fotoRemera3.jpg'
+    },
+    {
+      imagenT:'../../../../assets/Imagenes/fotoRemera4.jpg'
+    }
+
+  ];
+
+  constructor() { 
   }
 
   ngOnInit(): void {
+  }
+
+  selectImg (linkImg:string) {
+    this.imagenPrincipal= linkImg;
   }
 
 }
