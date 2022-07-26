@@ -1,19 +1,25 @@
-<p>
-    <mat-toolbar color="basic">
-        <button mat-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
-        <mat-menu #menu="matMenu">
-          <a mat-menu-item routerLink="home" >Home</a>
-  	      <a mat-menu-item routerLink="home" class="navRopa">Ropa <span class="material-icons">keyboard_arrow_right</span></a> 
-          <a mat-menu-item routerLink="nosotros">Nosotros</a>
-          <a mat-menu-item routerLink="contactanos">Contactanos</a>
-        </mat-menu>
-      <span><a routerLink="home"><img src="../../../assets/Imagenes/LogoOCN2.png" alt="ImagenDeLogo" style="height: 50px;width: 50px;border-radius: 50%;"></a></span>
-      <span class="example-spacer"></span>
-      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-        <mat-icon>favorite</mat-icon>
-      </button>
-      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-        <mat-icon>share</mat-icon>
-      </button>
-    </mat-toolbar>
-  </p>
+
+<mat-toolbar color="basic">
+    <button mat-button [matMenuTriggerFor]="menu"><span class="material-icons">menu</span></button>
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item  routerLink="/">Inicio</a>
+    <button mat-menu-item [matMenuTriggerFor]="ropas">Ropas</button>
+    <a mat-menu-item routerLink="nosotros">Nosotros</a>
+    <a mat-menu-item routerLink="contactanos">Contactanos</a>
+  </mat-menu>
+
+  <mat-menu #ropas="matMenu">
+    <button mat-menu-item routerLink="busos">Buzos</button>
+    <button mat-menu-item routerLink="remeras">Remeras</button>
+    <button mat-menu-item>Camperas</button>
+  </mat-menu>
+
+  <span><a routerLink="inicio"><img src="../../../assets/Imagenes/LogoOCN2.png" alt="ImagenDeLogo" style="height: 50px;width: 50px;border-radius: 50%;"></a></span>
+
+  <span class="example-spacer"></span>
+  
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" (click)="openBottomSheet()">
+    <mat-icon>share</mat-icon>
+  </button>
+
+</mat-toolbar>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ThumbrailsService } from "../../../servicios/thumbrails.service";
 @Component({
   selector: 'app-remeras',
   templateUrl: './remeras.component.html',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RemerasComponent implements OnInit {
 
-  constructor() { }
+  equipo:any[] = [];
+
+  constructor(private _servicio:ThumbrailsService) { 
+    this.equipo = _servicio.obtenerEquipo();
+  }
 
   ngOnInit(): void {
   }

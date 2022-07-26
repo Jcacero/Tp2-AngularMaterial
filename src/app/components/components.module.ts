@@ -9,6 +9,9 @@ import { BannerComponent } from './banner/banner.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { CatergoriasComponent } from './catergorias/catergorias.component';
 import { CardsComponent } from './cards/cards.component';
+import { FormEmailComponent } from './form-email/form-email.component';
+import { ShareSheetComponent } from './share-sheet/share-sheet.component';
+import { VideoInicioComponent } from './video-inicio/video-inicio.component';
 
 
 
@@ -19,13 +22,19 @@ import { CardsComponent } from './cards/cards.component';
     JumbotronComponent,
     CatergoriasComponent,
     CardsComponent,
+    FormEmailComponent,
+    ShareSheetComponent,
+    VideoInicioComponent
   ],
   exports:[
     NavbarComponent,
     BannerComponent,
     JumbotronComponent,
     CatergoriasComponent,
-    CardsComponent
+    CardsComponent,
+    FormEmailComponent,
+    ShareSheetComponent,
+    VideoInicioComponent
   ],
   imports: [
     CommonModule,
