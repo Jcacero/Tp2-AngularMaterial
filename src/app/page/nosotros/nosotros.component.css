@@ -42,6 +42,14 @@ body {
     z-index: 1;
 }
 
+.textoCard{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+
+}
+
 .container .card:nth-child(1) .icon {
     background: rgb(48, 48, 48);
 }

@@ -10,14 +10,10 @@ export class BusosComponent implements OnInit {
   public imagenBuzos:string = "../../../../assets/Imagenes/fotosBusoAzul.jpg";
   public imagenRemeras:string = "../../../../assets/Imagenes/fotoRemera.jpg";
   public imagenCamperas:string = "../../../../assets/Imagenes/fotoRompe.jpg";
-
-
   constructor() { }
 
   ngOnInit(): void {
-
   }
-
   selectImg (linkImg:string,seccion:string) {
     if (seccion=="seccion-buzos") {
       this.imagenBuzos= linkImg;

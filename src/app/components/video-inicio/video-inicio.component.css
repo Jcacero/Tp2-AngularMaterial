@@ -16,6 +16,31 @@
 }
 .inicio-video{
     margin: 10px;
-    width: 840px;
-    height: 460px;
+    width: 276px;
+    height: 104px;
+}
+
+@media (min-width: 575px) { 
+    .inicio-video{
+        width: 570px;
+        height: auto;
+          
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .inicio-video{
+        width: 760px;
+        height: auto;
+        
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .inicio-video{
+        width: 840px;
+        height: 460px;
+    }
 }

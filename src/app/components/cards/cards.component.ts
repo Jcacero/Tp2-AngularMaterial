@@ -15,19 +15,18 @@ export class CardsComponent implements OnInit {
       {
         titulo: 'Buzos',
         imagen: '../../../assets/Imagenes/fotosBusoAzul.jpg',
-        direc: '/busos'
+        direc: '/ropa#buzos'
       },
       {
         titulo: 'Remeras',
         imagen: '../../../assets/Imagenes/fotoRemera.jpg',
-        direc: '/remeras'
+        direc: '/ropa#remeras'
 
       },
       {
         titulo: 'Camperas',
         imagen: '../../../assets/Imagenes/fotoRompe.jpg',
-        direc: '/camperas'
-
+        direc: '/ropa#camperas'
       }
     ]
   }
