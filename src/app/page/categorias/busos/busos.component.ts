@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BusosComponent implements OnInit {
 
-  public imagenPrincipal:string = "../../../../assets/Imagenes/fotosBusoAzul.jpg";
+  public imagenBuzos:string = "../../../../assets/Imagenes/fotosBusoAzul.jpg";
+  public imagenRemeras:string = "../../../../assets/Imagenes/fotoRemera.jpg";
+  public imagenCamperas:string = "../../../../assets/Imagenes/fotoRompe.jpg";
 
 
   constructor() { }
@@ -16,8 +18,16 @@ export class BusosComponent implements OnInit {
 
   }
 
-  selectImg (linkImg:string) {
-    this.imagenPrincipal= linkImg;
+  selectImg (linkImg:string,seccion:string) {
+    if (seccion=="seccion-buzos") {
+      this.imagenBuzos= linkImg;
+    }else{
+      if (seccion=='seccion-remeras') {
+        this.imagenRemeras=linkImg; 
+      }else{
+        this.imagenCamperas=linkImg;
+      }
+    }
   }
 
 }

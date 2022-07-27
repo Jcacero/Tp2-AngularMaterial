@@ -7,8 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule } from './material/material.module';
 import { ComponentsModule } from './components/components.module';
-import { RemerasComponent } from "./page/categorias/remeras/remeras.component";
-import { CamperasComponent } from "./page/categorias/camperas/camperas.component";
 import { HomeComponent } from './page/home/home.component';
 import { NosotrosComponent } from './page/nosotros/nosotros.component';
 import { ContactanosComponent } from './page/contactanos/contactanos.component';
@@ -21,8 +19,6 @@ import { ThumbrailsService } from "./servicios/thumbrails.service";
 @NgModule({
   declarations: [
     AppComponent,
-    RemerasComponent,
-    CamperasComponent,
     HomeComponent,
     NosotrosComponent,
     ContactanosComponent,

@@ -3,14 +3,43 @@
     <h1 class="tituloBusos">Buzos</h1>
 
         <div class="containerImg">
-            <img class="main_img" src="{{imagenPrincipal}}"alt="ImagenDeBuso">
+            <img class="main_img" src="{{imagenBuzos}}"alt="ImagenDeBuso">
         </div>
 
         <div class="thumbnail_container">
-            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotosBusoAzul.jpg')" src="../../../../assets/Imagenes/fotosBusoAzul.jpg" alt="FotoBuzoAzul">
-            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoBuzoBlancoYRosa.jpg')" src="../../../../assets/Imagenes/fotoBuzoBlancoYRosa.jpg" alt="FotoBuzoByR">
-            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoBusoBlanco.jpg')" src="../../../../assets/Imagenes/fotoBusoBlanco.jpg" alt="FotoBuzoBlanco">
-            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoBusoDragon.jpg')" src="../../../../assets/Imagenes/fotoBusoDragon.jpg" alt="FotoBuzoDragron">
+            <img class="thumbnail activo"  (click)="selectImg('../../../../assets/Imagenes/fotosBusoAzul.jpg', 'seccion-buzos')" src="../../../../assets/Imagenes/fotosBusoAzul.jpg" alt="FotoBuzoAzul">
+            <img class="thumbnail activo"  (click)="selectImg('../../../../assets/Imagenes/fotoBuzoBlancoYRosa.jpg', 'seccion-buzos')" src="../../../../assets/Imagenes/fotoBuzoBlancoYRosa.jpg" alt="FotoBuzoByR">
+            <img class="thumbnail activo"  (click)="selectImg('../../../../assets/Imagenes/fotoBusoBlanco.jpg', 'seccion-buzos')" src="../../../../assets/Imagenes/fotoBusoBlanco.jpg" alt="FotoBuzoBlanco">
+            <img class="thumbnail activo"  (click)="selectImg('../../../../assets/Imagenes/fotoBusoDragon.jpg', 'seccion-buzos')" src="../../../../assets/Imagenes/fotoBusoDragon.jpg" alt="FotoBuzoDragron">
         </div>
 </div>
 
+<div class="container-remeras">
+    <h1 class="tituloBusos">Remeras</h1>
+
+        <div class="containerImg">
+            <img class="main_img" src="{{imagenRemeras}}"alt="ImagenDeBuso">
+        </div>
+
+        <div class="thumbnail_container">
+            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoRemera.jpg','seccion-remeras')" src="../../../../assets/Imagenes/fotoRemera.jpg" alt="FotoBuzoAzul">
+            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoRemera2.jpg','seccion-remeras')" src="../../../../assets/Imagenes/fotoRemera2.jpg" alt="FotoBuzoByR">
+            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoRemera3.jpg','seccion-remeras')" src="../../../../assets/Imagenes/fotoRemera3.jpg" alt="FotoBuzoBlanco">
+            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoRemera4.jpg','seccion-remeras')" src="../../../../assets/Imagenes/fotoRemera4.jpg" alt="FotoBuzoDragron">
+        </div>
+</div>
+
+<div class="container-camperas" id="camperas">
+    <h1 class="tituloBusos">Camperas</h1>
+
+        <div class="containerImg">
+            <img class="main_img" src="{{imagenCamperas}}"alt="ImagenDeBuso">
+        </div>
+
+        <div class="thumbnail_container">
+            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoRompe.jpg','')" src="../../../../assets/Imagenes/fotoRompe.jpg" alt="FotoBuzoAzul">
+            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoCampera2.jpg','')" src="../../../../assets/Imagenes/fotoCampera2.jpg" alt="FotoBuzoByR">
+            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoCampera3.jpg','')" src="../../../../assets/Imagenes/fotoCampera3.jpg" alt="FotoBuzoBlanco">
+            <img class="thumbnail"  (click)="selectImg('../../../../assets/Imagenes/fotoCampera4.jpg','')" src="../../../../assets/Imagenes/fotoCampera4.jpg" alt="FotoBuzoDragron">
+        </div>
+</div>
