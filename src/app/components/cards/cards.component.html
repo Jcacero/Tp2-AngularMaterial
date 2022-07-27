@@ -3,7 +3,7 @@
     <div class="row">
 
         <div *ngFor="let i of info"class="col">
-            <a href="{{i.direc}}" style="color:transparent">
+            <a routerLink="{{i.direc}}" style="color:transparent">
             <div class="card 1">
                 <div class="card_image"><img src="{{i.imagen}}" alt="imagenRopa"></div>
                 <div class="card_title title-white">
