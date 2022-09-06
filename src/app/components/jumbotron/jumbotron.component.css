@@ -1,6 +1,6 @@
 .jumbotron{
     margin-top: 22px;
-    background-color: #4545469c;
+    background-color: rgb(60,63,67);
     color: white;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
     margin-left: 38%;
     margin-top: 30px;
     border-color: rgb(134, 0, 0);
-    font-size: larger;
+    font-size: x-large;
     justify-content: center;
 }
 .botonJumbotron:hover{

@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule } from './material/material.module';
+import { PrimeNGModule } from './material/prime-ng.module';
+
 import { ComponentsModule } from './components/components.module';
 import { HomeComponent } from './page/home/home.component';
 import { NosotrosComponent } from './page/nosotros/nosotros.component';
@@ -30,10 +32,11 @@ import { ThumbrailsService } from "./servicios/thumbrails.service";
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    PrimeNGModule,
     ComponentsModule
   ],
   providers: [
-    ThumbrailsService
+    ThumbrailsService,
   ],
   bootstrap: [AppComponent]
 })

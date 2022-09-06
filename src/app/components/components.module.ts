@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from '../material/material.module';
+import { PrimeNGModule } from '../material/prime-ng.module';
 import { AppRoutingModule } from '../app-routing.module';
 
 //importacion de componentes
@@ -12,6 +13,7 @@ import { CardsComponent } from './cards/cards.component';
 import { FormEmailComponent } from './form-email/form-email.component';
 import { ShareSheetComponent } from './share-sheet/share-sheet.component';
 import { VideoInicioComponent } from './video-inicio/video-inicio.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 
@@ -24,7 +26,8 @@ import { VideoInicioComponent } from './video-inicio/video-inicio.component';
     CardsComponent,
     FormEmailComponent,
     ShareSheetComponent,
-    VideoInicioComponent
+    VideoInicioComponent,
+    CarouselComponent
   ],
   exports:[
     NavbarComponent,
@@ -34,11 +37,13 @@ import { VideoInicioComponent } from './video-inicio/video-inicio.component';
     CardsComponent,
     FormEmailComponent,
     ShareSheetComponent,
-    VideoInicioComponent
+    VideoInicioComponent,
+    CarouselComponent
   ],
   imports: [
     CommonModule,
     MaterialModule,
+    PrimeNGModule,
     AppRoutingModule
   ]
 })

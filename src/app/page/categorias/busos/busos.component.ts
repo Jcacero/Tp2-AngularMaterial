@@ -13,6 +13,7 @@ export class BusosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
   selectImg (linkImg:string,seccion:string) {
     if (seccion=="seccion-buzos") {

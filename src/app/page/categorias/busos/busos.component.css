@@ -10,17 +10,20 @@ body{
     background-attachment: fixed;
     width: 100%;
     height: 100%;
+    padding: 5px;
 }
 .container-remeras{
     background-image: url(../../../../assets/Imagenes/streatWall3.jpg);
     width: 100%;
     height: 100%;
+    padding: 5px;
 }
 .container-camperas{
     background-image: url(../../../../assets/Imagenes/streatWall2.jpg);
     background-attachment: fixed;
     width: 100%;
     height: 100%;
+    padding: 5px;
 }
 .containerImg{
     width: 350px;
